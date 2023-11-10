@@ -2,7 +2,7 @@
 let userName = "Moroni";
 console.log(`Username: ${userName}`);
 userName = "Moronihah";
-console.log(`Username: ${userName}`);
+console.log(`Username: ${userName}`);																
 
 // 🔍 Part 2 error
 const currentDateAndTime = Date();
