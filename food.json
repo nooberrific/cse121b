@@ -1,0 +1,62 @@
+[
+    {
+    "id": 1,
+    "name": "Bread",
+    "category": "Grains",
+    "price": 2.5
+    },
+    {
+    "id": 2,
+    "name": "Bananas",
+    "category": "Produce",
+    "price": 1.2
+    },
+    {
+    "id": 3,
+    "name": "12 Eggs",
+    "category": "Dairy",
+    "price": 3.0
+    },
+    {
+    "id": 4,
+    "name": "Apple",
+    "category": "Produce",
+    "price": 0.25 
+    },
+    {
+        "id": 5,
+        "name": "Carrots",
+        "category": "Produce",
+        "price": 3.25 
+    },
+    {
+        "id": 6,
+        "name": "Pancake Mix",
+        "category": "Grains",
+        "price": 4.50 
+    },
+    {
+        "id": 7,
+        "name": "Sausage",
+        "category": "Meat",
+        "price": 3.15 
+    },
+    {
+        "id": 8,
+        "name": "Milk",
+        "category": "Dairy",
+        "price": 3.50 
+    },
+    {
+        "id": 9,
+        "name": "Cheese",
+        "category": "Dairy",
+        "price": 4.0 
+    },
+    {
+        "id": 10,
+        "name": "Broccoli",
+        "category": "Produce",
+        "price": 3.75 
+    }
+]

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Calculator</title>
+</head>
+<body>
+
+    <header>
+        <h1>Project: Grocery Calculator</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Available Foods</h2>
+            <ul id="foodList"></ul>
+        </section>
+
+        <section>
+            <h2>Items in Cart:</h2>
+            <ul id="itemsInCart"></ul>
+        </section>
+
+        <section>
+            <h2>Receipt</h2>
+            <ul id="receiptList"></ul>
+            <p id="totalAmount">Total: $0.00</p>
+        </section>
+
+        <section>
+            <label>
+                Black Friday Discount (5% off):
+                <input type="checkbox" id="blackFridayCheckbox">
+            </label>
+
+            <br>
+
+            <label>
+                December Coupon ($5 off):
+                <input type="checkbox" id="decemberCouponCheckbox">
+            </label>
+
+            <br>
+
+            <button onclick="calculateTotal()">Calculate Total</button>
+            <button onclick="clearReceipt()">Clear Cart & Receipt</button>
+        </section>
+    </main>
+
+    <script src="scripts/project.js"></script>
+
+</body>
+</html>
